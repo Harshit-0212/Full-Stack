@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic form</title>
+</head>
+<body>
+
+<fieldset>
+    <legend align="center">Basic Form</legend>
+        <form>
+        <label for="FullName">Full Name : </label>
+        <input type="text" name="fullname" id="FullName" placeholder="Enter your name">
+
+
+        <br>
+        <br>
+
+        <label for="Email">E-Mail : </label>
+        <input type="email" name="email" id="Email" placeholder="Enter your email">
+
+        <br>
+        <br>
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder="password">
+
+        <br>
+        <br>
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <span>Male</span>
+        <input type="radio" name="genderr" id="female" value="female">
+        <span>Female</span>
+        <input type="radio" name="genderr" id="others" value="others">
+        <span>others</span>
+        
+
+
+        <br>
+        <br>
+
+        <label for="dob">DOB : </label>
+        <input type="date" name="dob" id="dob">
+        
+        <br>
+        <br>
+
+        <label for="jointime">Joining Time: </label>
+        <input type="datetime-local" name="jointime" id="jointime">
+
+        <br>
+        <br>
+
+        <label for="volume">Volume : </label>
+        <input type="range" name="volume" id="volume" min="0" max="100" value="70">
+
+        <br>
+        <br>
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age">
+
+        <br>
+        <br>
+
+        <label for="address">Address : </label>
+        <textarea name="address" id="address"></textarea>
+
+        <br>
+        <br>
+
+        <label for="course">Course : </label>
+        <select name="course" id="course">
+            <option value="">Select Course</option>
+            <option value="btech">B.Tech</option>
+            <option value="bba">BBA</option>
+            <option value="pharmacy">Pharmacy</option>
+            <option value="mtech">M.Tech</option>
+            <option value="mba">MBA</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="skillset">Skill Set: </label>
+        <input type="checkbox" name="skillset" id="skillset" value="Java">
+        <span>Java</span>
+        <input type="checkbox" name="skillset" id="skillset" value="DSA">
+        <span>DSA</span>
+        <input type="checkbox" name="skillset" id="skillset" value="HTML">
+        <span>HTML</span>
+
+        <br>
+        <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</fieldset>
+
+</body>
+</html>
