@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    color: red;
+
+}
+
+#upper{
+    color:white;
+    font-size: 14px;
+}
+
+#arrow{
+    float: right;
+    color: white;
+}
+
+hr{
+    border: 1px solid grey;
+}
+
+img{
+    height: 40px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+@font-face {
+  font-family: 'HMAmpersand';
+  src: url('fonts/my-custom-font.woff2') format('woff2'),
+       url('fonts/my-custom-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0026; 
+}
+
+
+body {
+  
+  font-family: 'HMAmpersand', Arial, sans-serif; 
+}
