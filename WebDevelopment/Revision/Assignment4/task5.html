@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <form>
+
+                    <table cellspacing="20">
+            <tr>
+                <td><label for="name">Applicant's full name</label></td>
+                <td>
+                    <select name="name" id="name">
+                        <option value="">--Select--</option>
+                        <option value="mr">Mr.</option>
+                        <option value="mas">Mas.<ption>
+                        <option value="miss">Miss</option>
+                        <option value="mrs">Mrs.</option>
+                    </select>
+                    <input type="text" name="name" id="name">
+
+                </td>
+                <td><label for="care">Care Of</label></td>
+
+                <td>
+                    <input type="radio" name="care" id="care" value="parents">
+                    <span>Parents</span>
+                    <input type="radio" name="care" id="care" value="guardian">
+                    <span>Guardian</span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label for="fname">Father's Name</label></td>
+                <td>
+                    <select name="name" id="name">
+                        <option value="mr">Mr.</option>
+                    </select>
+                    <input type="text" name="fname" id="fname">
+
+                </td>
+                <td><label for="mname">Mother's Name</label></td>
+                <td> <select name="name" id="name">
+                        <option value="mrs">Mrs.</option>
+                    </select>
+                    <input type="text" name="mname" id="mname"></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <span>Male</span>
+                    <input type="radio" name="gender" id="gender" value="female">
+                    <span>Female</span>
+                    <input type="radio" name="gender" id="gender" value="others">
+                    <span>Others</span>
+
+                </td>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="mar">Marital Status</label></td>
+                <td>
+                    <select name="mar" id="mar">
+                        <option value="">--Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </td>
+                <td><label for="cate">Category</label></td>
+                <td>
+                    <select name="cate" id="cate">
+                        <option value="">--Select</option>
+                        <option value="gen">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+
+                    </select>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label for="handicapped">Handicapped</label></td>
+                <td>
+                    <input type="radio" name="handicapped" id="handicapped" value="yes">
+                    <span>Yes</span>
+                    <input type="radio" name="handicapped" id="handicapped" vale="no">
+                    <span>No</span>
+
+                </td>
+                <td><label for="service">Ex-Serviceman</label></td>
+                <td>
+                    <input type="radio" name="service"  id="service" value="yes" >
+                    <span>Yes</span>
+                    <input type="radio" name="service"  id="service" value="no" >
+                    <span>No</span>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label for=ews">EWS</label></td>
+                <td>
+                    <input type="radio" name="ews" id="ews" value="yes">
+                    <span>Yes</span>
+                    <input type="radio" name="ews" id="ews" vale="no">
+                    <span>No</span>
+                </td>
+                <td><label for="rel">Religion</label></td>
+                <td>
+                    <select name="rel" id="rel">
+                        <option value="">--Select--</option>
+                        <option value="hin">Hndu</option>
+                        <option value="mus">Muslim</option>
+                        <option value="christ">Christian</option>
+                    </select>
+
+                </td>
+
+            </tr>
+        </table>
+
+        </form>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Contact Details</legend>
+
+        <form>
+
+            <table cellspacing="20">
+                <tr>
+                    <td><label for="mobile">Mobile No</label></td>
+                    <td><input type="text" name="mobile" id="mobile"></td>
+                    <td><label for="email">Email ID</label></td>
+                    <td><input type="email" name="emial" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="add1">Address Line 1</label></td>
+                    <td><textarea name="add1" id="add1"></textarea></td>
+                    <td><label for="add2">Address Line 2</label></td>
+                    <td><textarea name="add2" id="add2"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" name="city" id="city"></td>
+                    <td><label for="state">State</label></td>
+                    <td>
+                        <select name="state" id="state">
+                            <option value="">--Select</option>
+                            <option value="indore">Indore</option>
+                            <option value="bhopal">Bhopal</option>
+                            <option value="gwalior">gwalior</option>
+                        </select>
+
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label for="code">Pin Code</label></td>
+                    <td><input type="text" name="code" id="code"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Qualification Details</legend>
+        <form>
+            <table cellspacing="20">
+                <tr>
+                    <th>SrNo.</th>
+                    <th>Qualification</th>
+                    <th>Board/University</th>
+                    <th>Passing Year</th>
+                    <th>Max Marks</th>
+                    <th>Marks Obtain</th>
+                    <th>Percentage</th>
+                </tr>
+
+                <tr>
+                    <td><label for="1">1</label></td>
+                    <td>
+                        <select name="1" id="1">
+                        <option value="">--Select--</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="1" id="1"></td>
+                    <td><input type="number" name="1" id="1"></td>
+                    <td><input type="number" name="1" id="1"></td>
+                    <td><input type="number" name="1" id="1"></td>
+                    <td><input type="number" name="1" id="1"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="2">2</label></td>
+                    <td>
+                        <select name="2" id="2">
+                        <option value="">--Select--</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="2" id="2"></td>
+                    <td><input type="number" name="2" id="2"></td>
+                    <td><input type="number" name="2" id="2"></td>
+                    <td><input type="number" name="2" id="2"></td>
+                    <td><input type="number" name="2" id="2"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="3">3</label></td>
+                    <td>
+                        <select name="3" id="3">
+                        <option value="">--Select--</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="3" id="3"></td>
+                    <td><input type="number" name="3" id="3"></td>
+                    <td><input type="number" name="3" id="3"></td>
+                    <td><input type="number" name="3" id="3"></td>
+                    <td><input type="number" name="3" id="3"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="4">4</label></td>
+                    <td>
+                        <select name="4" id="4">
+                        <option value="">--Select--</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="4" id="4"></td>
+                    <td><input type="number" name="4" id="4"></td>
+                    <td><input type="number" name="4" id="4"></td>
+                    <td><input type="number" name="4" id="4"></td>
+                    <td><input type="number" name="4" id="4"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Language Knowledge</legend>
+        <form>
+            <table cellspacing="20">
+                <tr>
+                    <td>Language</td>
+                    <td>Reading</td>
+                    <td>Writing</td>
+                    <td>Spoken</td>
+                </tr>
+
+                <tr>
+                    <td><label for="1">Hindi</label></td>
+                    <td><input type="checkbox" name="1" id="1"></td>
+                    <td><input type="checkbox" name="1" id="1"></td>
+                    <td><input type="checkbox" name="1" id="1"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="2">English</label></td>
+                    <td><input type="checkbox" name="2" id="2"></td>
+                    <td><input type="checkbox" name="2" id="2"></td>
+                    <td><input type="checkbox" name="2" id="2"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="3">Urdu</label></td>
+                    <td><input type="checkbox" name="3" id="3"></td>
+                    <td><input type="checkbox" name="3" id="3"></td>
+                    <td><input type="checkbox" name="3" id="3"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Identification Details</legend>
+        <form>
+            <table cellspacing="20">
+                <tr>
+                    <td><label for="ac">Aadhar Card Number</label></td>
+                    <td><input type="text" name="ac" id="ac"></td>
+                    <td><label for="pan"></label></td>
+                    <td><input type="text" name="pan" id="pan"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pic">Upload Photo</label></td>
+                    <td><input type="file" name="pic" id="pic"></td>
+                    <td><label for="sign">Upload Signature</label></td>
+                    <td><input type="file" name="sign" id="sign"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <hr>
+
+    <button><a href="./assignment4.html">Back</a></button>
+    <button><a href="../index.html">Home</a></button>
+    
+</body>
+</html>
