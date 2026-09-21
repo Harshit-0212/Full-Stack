@@ -1,0 +1,41 @@
+.body{
+    background-color: antiquewhite;
+}
+
+.main{
+    background-color: cornflowerblue;
+    color:black
+}
+
+#card{
+    background-color: crimson;
+    width: 550px;
+    height: 300px;
+}
+
+p{
+    background-color: grey;
+    color:black;
+    border: 2px solid black;
+    overflow: auto ;
+}
+
+#btn{
+    background-color: rgb(210, 135, 22);
+    color:navy;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+#btn:hover{
+    background-color:navajowhite ;
+
+}
+
+#btn:active{
+    .body{
+        background-color: navajowhite;
+        color: navy;
+    }
+}
