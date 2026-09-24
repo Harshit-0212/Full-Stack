@@ -1,0 +1,9 @@
+.div{
+    display: flex;
+}
+
+div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+}
