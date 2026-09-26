@@ -17,7 +17,7 @@ body{
     display:inline-block;
 }
 #b2{
-    height:500px;
+    height:520px;
     width:350px;
     background-color: white;
     border-radius: 5px;
@@ -42,9 +42,58 @@ u{
     width:10px;
 }
 #env2{
-    margin:20px;
+    padding-right: 25px;
    
 }
+
+.inpbox{
+    border-bottom: 2px solid grey;
+}
+
+.inpbox input{
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.innerbox{
+
+    padding:25px;
+
+}
+
+.rem{
+     padding-top:0px;
+     padding-left: 20px;
+}
+
+#fp{
+    padding-left: 50px;
+    color:royalblue;
+}
+
+#btn1{
+  height: 50px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: royalblue;
+    border-radius: 8px;
+    color:white;
+    font-size: 17px;
+}
+
+#acc1{
+     display: block;
+    text-align: center;
+}
+#signup1{
+    color: royalblue;
+}
+
+
+
 
 
 
