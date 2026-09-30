@@ -719,15 +719,18 @@ hr {
 #sec8 {
     width: 100%;
     height: auto;
-    padding: 0px;
+    min-height: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: white;
     box-sizing: border-box;
-    margin-top: 100px;
 }
 
 #sec8 div {
     width: 88%;
     height: 280px;
+    margin: 0 auto;
     padding: 50px;
     box-sizing: border-box;
     background: linear-gradient(to right, #090f2d, #08247a);
@@ -736,7 +739,7 @@ hr {
 }
 
 #sec8 h2 {
-    margin-top: 0;
+    margin-top: 45px;
     color: white;
     font-size: 30px;
     width: 600px;
