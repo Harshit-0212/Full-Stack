@@ -1,27 +1,364 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Nexora</title>
-</head>
-<body>
-
+  </head>
+  <body class="sora">
     <div class="nav">
-        <span id="logo">Nexora<span id="logo">.</span></span>
-        <div class="navmenu">
-            <div><a href="./index.html" id="home">Home</a></div>
-            <div><a href="./about.html" id="about">About</a></div>
-            <div><a href="./service.html" id="services">Services</a></div>
-            <div><a href="./protfolio.html" id="portfolio">Portfolio</a></div>
-            <div><a href="./blogs.html" id="blog">Blog</a></div>
-            <div><a href="./pricing.html" id="pricing">Pricing</a></div>
-            <div><a href="./contact.html" id="contact">Contact</a></div>
-            <div><a href="./started.html" id="started">Get Started</a></div>  
-        </div>      
-
+      <span id="logo"><b>Nexora</b><span id="logo.">.</span></span>
+      <div class="navmenu">
+        <div><a href="./index.html" id="home" class="navlink">Home</a></div>
+        <div><a href="./about.html" id="about" class="navlink">About</a></div>
+        <div>
+          <a href="./service.html" id="services" class="navlink">Services</a>
+        </div>
+        <div>
+          <a href="./protfolio.html" id="portfolio" class="navlink"
+            >Portfolio</a
+          >
+        </div>
+        <div><a href="./blogs.html" id="blog" class="navlink">Blog</a></div>
+        <div>
+          <a href="./pricing.html" id="pricing" class="navlink">Pricing</a>
+        </div>
+        <div>
+          <a href="./contact.html" id="contact" class="navlink">Contact</a>
+        </div>
+        <div><button id="started">Get Started</button></div>
+      </div>
     </div>
-    
-</body>
+    <div id="first"></div>
+    <div id="sec">
+      <p id="product">POWERING PRODUCTS TEAMS AT</p>
+      <div class="prodrow">
+        <div id="one">
+          <i class="fa-solid fa-hexagon" style="color: grey"></i>Flowbit
+        </div>
+        <div id="one">
+          <i class="fa-solid fa-circle" style="color: grey"></i>Orbiq
+        </div>
+        <div id="one"><span id="tri">▲</span>Verta</div>
+        <div id="one">
+          <p><i class="fa-solid fa-square" style="color: grey"></i>Cloudra</p>
+        </div>
+        <div id="one">
+          <i class="fa-regular fa-gem" style="color: grey"></i>Pivotal
+        </div>
+        <div id="one"><i class="fa-solid fa-diamond"></i>Northpeak</div>
+      </div>
+    </div>
+    <hr />
+    <section id="sec">
+      <div id="thirdin">
+        <span id="wwd">• WHAT WE DO</span>
+        <h2 id="txt1">Capabilities built for modern product teams</h2>
+        <p id="txt2">
+          From early-stage validation to scaling infrastructure, our specialists
+          plug <br />directly into your roadmap.
+        </p>
+        <a id="a" href="./service.html">View all services →</a>
+      </div>
+
+      <div id="row">
+        <div class="rowcard">
+          <div id="card1">
+            <div id="cardicon">
+              <i
+                class="bi bi-bar-chart"
+                style="color: royalblue; font-size: 20px; font-weight: 800"
+              ></i>
+            </div>
+            <h3 id="head">Product Strategy</h3>
+            <p id="subhead">
+              Research-driven roadmaps that align stakeholders and de-risk what
+              you build next.
+            </p>
+            <a href="./service.html" id="learn">Learn more→</a>
+          </div>
+        </div>
+        <div class="rowcard">
+          <div id="card1">
+            <div id="cardicon2">
+              <i
+                class="bi bi-palette"
+                style="
+                  color: rgb(147, 43, 226);
+                  font-size: 20px;
+                  font-weight: 800;
+                "
+              ></i>
+            </div>
+            <h3 id="head">UI/UX Design</h3>
+            <p id="subhead">
+              Interfaces that convert — wireframes, design systems and
+              prototypes ready for dev.
+            </p>
+            <a href="./service.html" id="learn">Learn more→</a>
+          </div>
+        </div>
+        <div class="rowcard">
+          <div id="card1">
+            <div id="cardicon3">
+              <i
+                class="bi bi-code-slash"
+                style="
+                  color: rgb(39, 192, 39);
+                  font-size: 20px;
+                  font-weight: 800;
+                "
+              ></i>
+            </div>
+            <h3 id="head">Web Development</h3>
+            <p id="subhead">
+              Performant, scalable web apps built on modern frameworks with
+              clean architecture.
+            </p>
+            <a href="./service.html" id="learn">Learn more→</a>
+          </div>
+        </div>
+        <div class="rowcard">
+          <div id="card1">
+            <div id="cardicon4">
+              <i
+                class="bi bi-cloud-arrow-up"
+                style="color: royalblue; font-size: 20px; font-weight: 800"
+              ></i>
+            </div>
+            <h3 id="head">Cloud & DevOps</h3>
+            <p id="subhead">
+              CI/CD pipelines, monitoring and cloud infrastructure that scales
+              with your traffic.
+            </p>
+            <a href="./service.html" id="learn">Learn more→</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec3">
+      <div id="container">
+        <div id="pic">
+          <img src="./img1.jpg" id="img1" />
+        </div>
+        <div id="fix1">
+          <div id="iconbadge">
+            <i
+              class="bi bi-award"
+              style="color: royalblue; font-size: 16px"
+            ></i>
+          </div>
+          <div>
+            <h4>Top Rated Agency</h4>
+            <p id="clutch">Clutch & G2, 2025</p>
+          </div>
+        </div>
+      </div>
+      <div id="textual">
+        <span>• WHY NEXORA</span>
+        <h2 id="nex">A senior team, embedded in your workflow</h2>
+        <p id="nexora">
+          We don't hand off decks and disappear. Our designers and engineers
+          work inside your tools — Slack, Linear, Figma — as an extension of
+          your team.
+        </p>
+        <ul class="list">
+          <li>
+            <i class="bi bi-check2" style="font-size: small"></i>
+            <div>
+              <strong>Dedicated senior squad</strong> — no junior
+              bait-and-switch, ever.
+            </div>
+          </li>
+
+          <li>
+            <i class="bi bi-check2" style="font-size: small"></i>
+            <div>
+              <strong>Transparent weekly sprints</strong> with shared dashboards
+              and demos.
+            </div>
+          </li>
+
+          <li>
+            <i class="bi bi-check2" style="font-size: small"></i>
+            <div>
+              <strong>Flexible engagement models</strong> — project, retainer or
+              staff augmentation.
+            </div>
+          </li>
+        </ul>
+        <a href="./about.html" id="aboutus">More About Us</a>
+      </div>
+    </section>
+    <hr />
+    <section id="sec4">
+      <div id="statstrip">
+        <div id="strip">
+          <div id="statnumber">480+</div>
+          <div id="statname">Projects delivered</div>
+        </div>
+        <div id="strip">
+          <div id="statnumber">12 yrs</div>
+          <div id="statname">Industry Experience</div>
+        </div>
+        <div id="strip">
+          <div id="statnumber">96%</div>
+          <div id="statname">Client retention</div>
+        </div>
+        <div id="strip">
+          <div id="statnumber">34</div>
+          <div id="statname">Countries Served</div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="sec5">
+      <div id="textual3">
+        <span>•HOW WE WORK</span>
+        <h2>A proven four-step delivery process</h2>
+        <p>
+          Every engagement follows the same disciplined process — refined across
+          hundreds of launches.
+        </p>
+      </div>
+      <div class="row">
+        <div id="rowele">
+          <span>01</span>
+          <h3>Discover</h3>
+          <p>
+            We audit your product, market and users to identify the
+            highest-leverage opportunities.
+          </p>
+        </div>
+        <div id="rowele">
+          <span>02</span>
+          <h3>Design</h3>
+          <p>
+            Wireframes evolve into polished, tested interfaces backed by a
+            reusable design system.
+          </p>
+        </div>
+        <div id="rowele">
+          <span>03</span>
+          <h3>Build</h3>
+          <p>
+            Engineers ship in two-week sprints with continuous integration and
+            staging previews.
+          </p>
+        </div>
+        <div id="rowele">
+          <span>03</span>
+          <h3>Scale</h3>
+          <p>
+            Post-launch, we monitor performance and iterate based on real usage
+            data.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="sec6">
+      <div id="textual4">
+        <span>• SELECTED WORK</span>
+        <h2>Case studies that speak for themselves</h2>
+        <a href="./protfolio.html">View full portfolio →</a>
+      </div>
+      <div id="rowpic">
+        <div>
+          <a href="./protfolio.html">
+            <img src="pic2.jpg" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="./protfolio.html">
+            <img src="pic3.jpg" alt="" />
+          </a>
+        </div>
+        <div>
+          <a href="./protfolio.html">
+            <img src="pic4.jpg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="sec7">
+      <div>
+        <span>•CLIENT FEEDBACK</span>
+        <h2>Don't just take our word for it</h2>
+      </div>
+      <div id="feed">
+        <div class="feedback-card">
+          <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+
+          <p class="feedback-text">
+            "Nexora rebuilt our onboarding flow in six weeks and activation
+            rates jumped almost immediately. Communication was exceptional
+            throughout."
+          </p>
+
+          <div class="person">
+            <img src="pic5.jpg" alt="Sarah Mitchell" />
+
+            <div class="person-info">
+              <h3>Sarah Mitchell</h3>
+              <p>VP Product, Flowbit</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-card">
+          <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+
+          <p class="feedback-text">
+            "Nexora understood our requirements perfectly and delivered a smooth
+            experience for our users."
+          </p>
+
+          <div class="person">
+            <img src="pic6.jpg" alt="Alex Morgan" />
+
+            <div class="person-info">
+              <h3>Alex Morgan</h3>
+              <p>CEO, TechFlow</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-card">
+          <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+
+          <p class="feedback-text">
+            "The communication was excellent and the final product exceeded our
+            expectations."
+          </p>
+
+          <div class="person">
+            <img src="pic7.jpg" alt="Emily Carter" />
+
+            <div class="person-info">
+              <h3>Emily Carter</h3>
+              <p>Founder, BrightLabs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
