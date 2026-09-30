@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#hw{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid black;
+    text-wrap-mode: nowrap;
+    overflow: hidden;
+    background-color: aquamarine;
+    transition:
+    width 2s,
+    background-color 2s ;
+}
+#hw:hover{
+    width: 600px;
+    background-color: red;
+    transition:
+    width 2s,
+    background-color 2s ;
+}
