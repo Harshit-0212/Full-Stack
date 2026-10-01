@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding: 20px 90px;
+  background: radial-gradient(circle at 90% 20%, #1d3b8f, #090f2d 60%);
+}
+
+#logo {
+  margin-left: 0;
+  margin-right: 350px;
+  color: white;
+  font-size: 25px;
+}
+
+#logo\. {
+  color: #2563eb;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 7px;
+}
+
+.navlink {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #b8bfd5;
+  background-color: transparent;
+  transition: 0.2s ease;
+}
+
+.navmenu div a{
+    font-size: 15px;
+}
+
+.navmenu div a:hover {
+  background-color: #eef1ff;
+  color: #171d4d;
+}
+
+#pricing {
+  background-color: #eef1ff;
+  color: #171d4d;
+}
+
+#started {
+  width: 130px;
+  height: 35px;
+  padding: 9px 12px;
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, #2563eb, #673fc9);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#started:hover {
+  transform: translateY(-2px);
+}
+
+#aboutHero {
+  width: 100%;
+  height: 190px;
+  padding-top: 45px;
+  text-align: center;
+  color: white;
+  background: radial-gradient(circle at 90% 20%, #1d3b8f, #090f2d 60%);
+}
+
+#aboutHero h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+#aboutHero p {
+  margin-top: 15px;
+
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+
+#aboutHero p span:first-child a {
+  color: #b8bfd5;
+  text-decoration: none;
+}
+
+
+#aboutHero p span:first-child a:hover {
+  color: white;
+}
+
+#aboutHero p span:last-child {
+  color: #2563eb;
+}
+
+#aboutHero p b {
+  margin: 0 10px;
+  font-size: 15px;
+  color: #b8bfd5;
+}
