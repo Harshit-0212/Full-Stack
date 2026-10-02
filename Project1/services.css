@@ -129,3 +129,103 @@ body {
   font-size: 15px;
   color: #b8bfd5;
 }
+#sec2 {
+  width: 100%;
+  padding: 100px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+}
+
+#capa{
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 8px;
+  background-color: #e6ebf7;
+  border-radius: 20px;
+  letter-spacing: 0.3mm;
+}
+
+#sec2 h2{
+  font-size: 30px;
+  margin-top: 30px;
+}
+#capatxt{
+  margin-top: 20px;
+  width:620px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color:grey;
+  letter-spacing: 0.1mm;
+  text-align: center;
+}
+#grid {
+  width: 100%;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 415px));
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 30px;
+
+}
+
+#gridcard {
+  height: 320px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 230, 230);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    transition: transform 0.5s ease;
+}
+.gridicon{
+  display: flex;
+  margin: 40px 40px 20px;
+  height: 70px;
+  width: 70px;
+  background-color: #e6ebf7;
+  border-radius: 15px;
+  padding: 15px;
+}
+.gridicon i{
+  margin: auto ;
+}
+#subhead{
+    text-align: left;
+  margin: 0px auto 20px 40px;
+  font-family: sans-serif;
+  color: rgb(100, 100, 100);
+  width: 90%;
+  letter-spacing: 0.2mm;
+  line-height: 1.6;
+
+}
+
+#head{
+  text-align: left;
+  margin: 0px auto 10px 40px;
+}
+
+#card1 a{
+  text-decoration: none;
+  color: royalblue;
+  font-weight: 700;
+  font-size: 14.4px;
+  display: flex;
+  margin-left: 40px;
+
+}
+
+#gridcard:hover{
+  transform: translateY(-7px);
+  border:none;
+}
+
+
+
