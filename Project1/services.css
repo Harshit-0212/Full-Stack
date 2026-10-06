@@ -63,6 +63,7 @@ body {
 .navmenu div a:hover {
   background-color: #eef1ff;
   color: #171d4d;
+
 }
 
 #services {
@@ -242,7 +243,7 @@ body {
   display: flex;
   margin-left: 40px;
   transform: translateX(7px);
-  transition: 0.2s ease;
+  transition: 0.2s;
 }
 
 #gridcard:hover {
@@ -327,6 +328,7 @@ body {
 #text h2 {
   margin-top: 20px;
   font-size: 30px;
+  font-weight: 600;
 }
 
 #text p {

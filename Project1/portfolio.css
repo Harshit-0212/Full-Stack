@@ -131,7 +131,7 @@ body {
 }
 #sec1 {
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0 0 50px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -148,11 +148,14 @@ body {
   background-color: #e6ebf7;
   border-radius: 20px;
   letter-spacing: 0.3mm;
+  margin-right: 50px;
 }
 
 #head {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 30px;
+  font-weight: 600;
+    margin-right: 50px;
 }
 #subhead {
   margin-top: 20px;
@@ -163,4 +166,189 @@ body {
   color: rgb(125, 124, 124);
   letter-spacing: 0.1mm;
   text-align: center;
+    margin-right: 50px;
 }
+
+.image-group img {
+  width: 100%;             
+  height: 280px;          
+  object-fit: cover;       
+  object-position: center; 
+}
+.btn-group .btn-outline-primary:hover {
+  background-color: #00255d !important;
+
+  border-color: white !important;
+}
+#footer {
+  width: 100%;
+  background-color: #0b1438;
+  color: white;
+  padding: 90px 7% 35px;
+  box-sizing: border-box;
+}
+
+#footmain {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.4fr 0.7fr 0.9fr 1.5fr;
+  gap: 60px;
+  padding-bottom: 80px;
+}
+
+#footer h3 {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+#footabout p {
+  width: 260px;
+  color: #9ba6c0;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: sans-serif;
+}
+
+#company ul,
+#footservices ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#company li,
+#footservices li {
+  margin-bottom: 18px;
+}
+
+#company a,
+#footservices a {
+  color: #9ba6c0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#company a:hover,
+#footservices a:hover {
+  color: white;
+}
+
+#social {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+#social a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #182344;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#newsletter p {
+  color: lightgray;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 22px;
+  font-family: sans-serif;
+}
+
+#emailbox {
+  display: flex;
+  gap: 10px;
+}
+
+#emailbox input {
+  width: 350px;
+  height: 55px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  background-color: #182344;
+  border: 1px solid #d6d6d650;
+  border-radius: 10px;
+  color: white;
+}
+
+#emailbox button {
+  width: 72px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #2563eb, #673fc9);
+  color: white;
+  font-size: 25px;
+}
+
+#footbottom {
+  border-top: 1px solid #202c50;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footbottom ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0px 40px 0 auto;
+}
+
+#footbottom a {
+  color: #9ba6c0;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#footbottom ul li {
+  margin: 0;
+}
+
+#footbottom ul a {
+  color: #9ba6c0;
+  text-decoration: none;
+  font-size: 16px;
+}
+#footbottom p {
+  color: #9ba6c0;
+}
+
+#top {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: linear-gradient(to right, #2563eb, #673fc9);
+  color: white;
+  font-size: 25px;
+  margin-right: 0px;
+}
+#company ul a,
+#footservices ul a {
+  font-size: 15.2px;
+  font-family: sans-serif;
+}
+#company h5 {
+  margin-bottom: 20px;
+}
+#footservices h5 {
+  margin-bottom: 20px;
+}
+#newsletter h5 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: lightgray;
+}
+#company ul a:hover {
+  font-size: 15.2px;
+  font-family: sans-serif;
+  color: white;
+  background-color: none;
+}
+
