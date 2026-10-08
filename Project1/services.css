@@ -224,6 +224,7 @@ body {
 #head {
   text-align: left;
   margin: 0px auto 10px 40px;
+  font-weight: 500;
 }
 
 #card1 a {
