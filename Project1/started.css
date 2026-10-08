@@ -125,3 +125,44 @@ a:hover {
   margin: 0 10px;
   color: #b8bfd5;
 }
+
+
+#sec1 {
+  width: 100%;
+  padding: 50px 0 0 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+}
+
+#capa {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 8px;
+  background-color: #e6ebf7;
+  border-radius: 20px;
+  letter-spacing: 0.3mm;
+  margin-right: 50px;
+}
+
+#head {
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: 600;
+    margin-right: 50px;
+}
+#subhead {
+  margin-top: 20px;
+  width: 680px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgb(125, 124, 124);
+  letter-spacing: 0.1mm;
+  text-align: center;
+    margin-right: 50px;
+}
