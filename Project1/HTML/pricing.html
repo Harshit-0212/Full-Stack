@@ -26,7 +26,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="../CSS/pricing.css" />
     <title>Nexora</title>
   </head>
   <body class="sora">
@@ -71,179 +71,159 @@
     </div>
 
     <div id="aboutHero">
-      <h1>Insights & Resources</h1>
+      <h1>Simple, Transparent Pricing</h1>
 
       <p>
         <span><a href="index.html">Home</a> </span>
         <b>/</b>
-        <span>Blog</span>
+        <span>Pricing</span>
       </p>
     </div>
 
     <section id="sec1">
       <div>
-        <span id="capa">• INSIGHTS & ARTICLES</span>
-        <h2 id="head">Stories, trends & ideas</h2>
+        <span id="capa">• OUR PLANS</span>
+        <h2 id="head">Transparent pricing</h2>
         <p id="subhead">
-          A selection of recent thoughts, tutorials, and industry updates from
-          our team.
+          A selection of scalable tiers designed for projects of any size and
+          timeline complexity.
         </p>
       </div>
     </section>
 
-    <div class="container">
-      <table>
-        <tr>
-          <td colspan="2">
-            <div class="one">
-              <img src="blog1.webp" alt="Blog Feature" />
-              <div class="one-content">
-                <span>Texas city demands 2 Million</span>
-                <p>
-                  As bipartisan backlash against Flock grows, some cities are
-                  asking anti-surveillance advocates and media outlets to pay
-                  ...... <a href="https://arstechnica.com">more</a>
-                </p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="two">
-              <span>Milt Windler</span>
-              <p>
-                Milt Windler, one of the four leaders of Mission Control who in
-                1970 directed the round-the-clock......
-                <a href="https://arstechnica.com">more</a>
-              </p>
-            </div>
-          </td>
-          <td rowspan="2">
-            <div class="third">
-              <div class="tall-img-placeholder">
-                <img src="blog5.jpg" alt="" />
-              </div>
-              <span>Apple changes full-disk</span>
-              <p>
-                Apple says it is changing its macOS privacy settings to stop
-                third-party app developers from......
-                <a href="https://arstechnica.com">more</a>
-              </p>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <div class="two">
-              <span>Hall-Effect, TMR</span>
-              <p>
-                Over the past six years, keyboards with optical, Hall-effect,
-                and other “contactless” switches have ......
-                <a href="https://arstechnica.com">more</a>
-              </p>
-            </div>
-          </td>
-          <td colspan="2">
-            <div class="one">
-              <div class="img-placeholder">
-                <img src="blog2.jpeg" alt="" />
-              </div>
-              <div class="one-content">
-                <span>Command-line removes</span>
-                <p>
-                  Unlike with previous versions of macOS, macOS 27 Golden Gate
-                  doesn’t have a toggle for turning off Apple
-                  Intelligence.....<a href="https://arstechnica.com">more</a>
-                </p>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td rowspan="2">
-            <div class="third">
-              <div class="tall-img-placeholder">
-                <img src="blog6.jpg" alt="" />
-              </div>
-              <span>US arrests tech CEO</span>
-              <p>
-                The US has arrested another suspect accused of smuggling
-                high-end computer servers containing export-controlled.....<a
-                  href="https://arstechnica.com"
-                  >more</a
-                >
-              </p>
-            </div>
-          </td>
-          <td>
-            <div class="two">
-              <span>Dawn of the Age</span>
-              <p>
-                This year, members of Seattle Mountain Rescue have been setting
-                off into the wilds of the US Pacific Northwest.....<a
-                  href="https://arstechnica.com"
-                  >more</a
-                >
-              </p>
-            </div>
-          </td>
-          <td colspan="2">
-            <div class="one">
-              <div class="img-placeholder">
-                <img src="blog3.jpg" alt="" />
-              </div>
-              <div class="one-content">
-                <span>AI glasses face their first</span>
-                <p>
-                  Norway has become the first major country to propose a
-                  temporary ban on the use of AI glasses in selected ......<a
-                    href="https://arstechnica.com"
-                    >more</a
-                  >
-                </p>
-              </div>
-            </div>
-          </td>
-        </tr>
-
-        <tr>
-          <td colspan="2">
-            <div class="one">
-              <div class="img-placeholder">
-                <img src="blog4.jpg" alt="" />
-              </div>
-              <div class="one-content">
-                <span>All hail electrification.</span>
-                <p>
-                  That’s one of the ideas underpinning a report the
-                  International Energy Agency issued last week about the global
-                  move......<a href="https://arstechnica.com">more</a>
-                </p>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="two">
-              <span>New Forensic Evidence</span>
-              <p>
-                Egyptologists have long debated whether the earliest pharaohs of
-                the First Dynasty were buried with various......<a
-                  href="https://arstechnica.com"
-                  >more</a
-                >
-              </p>
-            </div>
-          </td>
-        </tr>
-      </table>
+    <div class="billing-toggle-wrapper">
+      <span class="active">Monthly</span>
+      <label class="switch">
+        <input type="checkbox" id="billingToggle" />
+        <span class="slider round"></span>
+      </label>
+      <span>Yearly <span class="discount-badge">Save 20%</span></span>
     </div>
+
+    <div class="pricing-board">
+      <div class="container">
+        <div id="card1" class="pricing-card">
+          <div class="price">$19<span>/month</span></div>
+          <h3>Starter</h3>
+          <ul>
+            <li><span class="icon">✓</span>More messages with tools</li>
+            <li><span class="icon">✓</span> More image creation</li>
+            <li><span class="icon">✓</span> More memory and storage  </li>
+            <li><span class="icon">✓</span> More voice chats</li>
+            <li><span class="icon">✓</span>Ad supported</li>
+            
+          </ul>
+          <button class="card-btn">Choose plan</button>
+        </div>
+
+        <div id="card2" class="pricing-card">
+          <div class="popular-badge">Most Popular</div>
+
+          <div class="price">$54<span>/month</span></div>
+          <h3>Professional</h3>
+          <ul>
+            <li><span class="icon">✓</span>Advanced intelligence for complex work</li>
+            <li><span class="icon">✓</span>Higher quality image creation</li>
+            <li><span class="icon">✓</span>Email and calendar connections</li>
+            <li><span class="icon">✓</span>arger projects to organize your work</li>
+            <li><span class="icon">✓</span> No ads</li>
+           
+          </ul>
+          <button class="card-btn">Choose plan</button>
+        </div>
+
+        <div id="card3" class="pricing-card">
+          <div class="price">$89<span>/month</span></div>
+          <h3>Company</h3>
+          <ul>
+            <li><span class="icon">✓</span>Our most capable frontier Pro model</li>
+            <li><span class="icon">✓</span>Dots, your always-on agents</li>
+            <li><span class="icon">✓</span>Early access to new tools and models</li>
+            <li><span class="icon">✓</span>Available in 3 usage tiers</li>
+            <li><span class="icon">✓</span> More Work and Codex usage</li>
+            
+          </ul>
+          <button class="card-btn">Choose plan</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 my-4">
+      <div class="d-flex flex-column gap-3">
+        <div class="bg-dark py-3">
+          <marquee
+            direction="left"
+            scrollamount="12"
+            onmouseover="this.stop()"
+            onmouseout="this.start()"
+            class="fw-semibold text-white fs-5"
+          >
+             IN-DEPTH TUTORIALS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LATEST TECH INSIGHTS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WEEKLY DEVELOPER PERSPECTIVES
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FRONTEND HACKS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </marquee>
+        </div>
+
+        <div
+          class="bg-light py-3 border-top border-bottom border-secondary border-opacity-10"
+        >
+          <marquee
+            direction="right"
+            scrollamount="12"
+            onmouseover="this.stop()"
+            onmouseout="this.start()"
+            class="fw-semibold text-secondary fs-5"
+          >
+            MODERN DESIGN SYSTEMS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIGMA UI KITS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RESPONSIVE GRID SYSTEMS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; USER EXPERIENCE
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </marquee>
+        </div>
+
+        <div class="bg-dark py-3">
+          <marquee
+            behavior="left"
+            direction="left"
+            scrollamount="12"
+            onmouseover="this.stop()"
+            onmouseout="this.start()"
+            class="fw-semibold text-white fs-5"
+          >
+             TRENDING TOPICS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CYBERSECURITY UPDATES
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NEXT.JS 17 BENCHMARKS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DATA MANAGEMENT
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </marquee>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      marquee {
+        cursor: pointer;
+        letter-spacing: 1px;
+      }
+    </style>
 
     <section id="sec2">
       <div class="container2">
         <div id="text2">
-          <span>• INSIGHTS & UPDATES</span>
-          <h2>Frequently read articles</h2>
+          <span>• FAQ & SUPPORT</span>
+          <h2>Frequently asked questions</h2>
         </div>
         <div class="accordion" id="accordionfaq">
           <div class="accordion-item">
@@ -256,7 +236,7 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                How often do you publish new articles?
+                Can I change or cancel my plan at any time?
               </button>
             </h2>
             <div
@@ -266,9 +246,9 @@
             >
               <div class="accordion-body">
                 <p>
-                  We publish fresh insights, technical tutorials, and industry
-                  analyses every week. Subscribe to our newsletter to get these
-                  updates delivered straight to your inbox.
+                  Yes, you can upgrade, downgrade, or cancel your subscription
+                  directly from your account dashboard. Changes take effect at
+                  the start of your next billing cycle.
                 </p>
               </div>
             </div>
@@ -284,7 +264,7 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Are these blog posts written by real engineers?
+                Is there a free trial period available?
               </button>
             </h2>
             <div
@@ -294,9 +274,9 @@
             >
               <div class="accordion-body">
                 <p>
-                  Yes, every piece of content is researched and written directly
-                  by our active design, development, and project management
-                  teams based on real-world client experiences.
+                  Yes, we offer a 14-day free trial for both the Starter and
+                  Professional plans. No credit card is required to sign up and
+                  test the platform.
                 </p>
               </div>
             </div>
@@ -312,7 +292,7 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Can I repurpose or share your technical tutorials?
+                What payment methods do you accept?
               </button>
             </h2>
             <div
@@ -322,9 +302,9 @@
             >
               <div class="accordion-body">
                 <p>
-                  You are welcome to share links to our articles or quote short
-                  snippets, provided you give appropriate credit and link back
-                  to the original post on Nexora.
+                  We accept all major credit cards including Visa, Mastercard,
+                  American Express, as well as secure digital checkout options
+                  like PayPal and Apple Pay.
                 </p>
               </div>
             </div>
@@ -340,7 +320,7 @@
                 aria-expanded="false"
                 aria-controls="collapseFourth"
               >
-                Do you accept guest contributions or sponsored posts?
+                Do you offer custom pricing options?
               </button>
             </h2>
             <div
@@ -350,9 +330,9 @@
             >
               <div class="accordion-body">
                 <p>
-                  We currently do not accept external sponsored content. Our
-                  editorial space is dedicated entirely to insights generated by
-                  our in-house experts and strategic partners.
+                  Yes, for large teams and high-volume workloads, our Company
+                  tier can be customized with dedicated limits, tailored SLAs,
+                  and custom integration setups.
                 </p>
               </div>
             </div>
@@ -433,7 +413,7 @@
         </ul>
 
         <button id="top">
-          <a href="./blogs.html" style="color: white">↑</a>
+          <a href="./pricing.html" style="color: white">↑</a>
         </button>
       </div>
     </footer>
