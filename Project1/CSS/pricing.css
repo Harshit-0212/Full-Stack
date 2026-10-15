@@ -522,6 +522,10 @@ input:checked + .slider:before { transform: translateX(24px); }
   justify-content: center;
 }
 
+#social i{
+  margin:auto;
+}
+
 #newsletter p {
   color: lightgray;
   font-size: 16px;

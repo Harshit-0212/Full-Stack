@@ -252,6 +252,10 @@ body {
   justify-content: center;
 }
 
+#social i{
+  margin:auto;
+}
+
 #newsletter p {
   color: lightgray;
   font-size: 16px;
