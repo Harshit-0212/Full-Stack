@@ -21,3 +21,13 @@ stopAssBtn.addEventListener("click", () => {
     assPara.textContent = "your assignment notification is stopped!"
 })
 
+const parent = document.getElementById("parent");
+const child = document.getElementById("child");
+
+parent.addEventListener("click", function () {
+  console.log("Parent clicked");
+});
+
+child.addEventListener("click", function () {
+  console.log("Child clicked");
+});
