@@ -22,7 +22,7 @@ stopAssBtn.addEventListener("click", () => {
 })
 
 const parent = document.getElementById("parent");
-const child = document.getElementById("child");
+const child = document.getElementById("child");a
 
 parent.addEventListener("click", function () {
   console.log("Parent clicked");
