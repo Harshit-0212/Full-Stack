@@ -1,25 +1,25 @@
-// //Assignment 1
+//Assignment 1
 
-// var studentname = " rAHUL shARma "
-// console.log(studentname.toLowerCase().trim());
-// console.log(studentname.toUpperCase().trim());
+var studentname = " rAHUL shARma "
+console.log(studentname.toLowerCase().trim());
+console.log(studentname.toUpperCase().trim());
 
-// var courseDescription = "JavaScript is scriptng language"
+var courseDescription = "JavaScript is scriptng language"
 
-// //Use charAt() and at() to display selected characters from the sentence
-// console.log(courseDescription.charAt(2));
-// console.log(courseDescription.at(4));
+//Use charAt() and at() to display selected characters from the sentence
+console.log(courseDescription.charAt(2));
+console.log(courseDescription.at(4));
 
-// //Use slice() and substring() to extract different portions of the course description.
-// console.log(courseDescription.slice(1,5));
-// console.log(courseDescription.substring(0,10));
+//Use slice() and substring() to extract different portions of the course description.
+console.log(courseDescription.slice(1,5));
+console.log(courseDescription.substring(0,10));
 
-// //Use indexOf() and lastIndexOf() to find the positions of a word or character.
-// console.log(courseDescription.indexOf("a"));
-// console.log(courseDescription.lastIndexOf("a"));
+//Use indexOf() and lastIndexOf() to find the positions of a word or character.
+console.log(courseDescription.indexOf("a"));
+console.log(courseDescription.lastIndexOf("a"));
 
-// //Use includes() to check whether the description contains "JavaScript".
-// console.log(courseDescription.includes("JavaScript"));
+//Use includes() to check whether the description contains "JavaScript".
+console.log(courseDescription.includes("JavaScript"));
 
 
 //Assignment 2 
