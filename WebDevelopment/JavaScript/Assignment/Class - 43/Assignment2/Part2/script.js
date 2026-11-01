@@ -1,60 +1,24 @@
-//Part 2
-const top_level = {
-  "instituteName": "RICR",
-  "courses": [
-    {
-      "courseTitle": "Web Development",
-      "duration": "6 Months",
-      "fee": 22000,
-      "students": [
-        {
-          "name": "Harshit Dubey",
-          "age": 21,
-          "isEnrolled": true,
-          "marks": [90, 84, 95],
-          "details": {
-            "city": "Indore",
-            "grade": "A"
-          }
-        },
-        {
-          "name": "Priya Verma",
-          "age": 19,
-          "isEnrolled": true,
-          "marks": [76, 82, 80],
-          "details": {
-            "city": "Bhopal",
-            "grade": "B"
-          }
-        }
-      ]
-    },
-    {
-      "courseTitle": "DSA",
-      "duration": "4 Months",
-      "fee": 12000,
-      "students": [
-        {
-          "name": "Harshit Dubey",
-          "age": 20,
-          "isEnrolled": true,
-          "marks": [95, 91, 98],
-          "details": {
-            "city": "Bhopal",
-            "grade": "A+"
-          }
-        },
-        {
-          "name": "Rohan Gupta",
-          "age": 22,
-          "isEnrolled": false,
-          "marks": [65, 70, 72],
-          "details": {
-            "city": "Gwalior",
-            "grade": null
-          }
-        }
-      ]
-    }
-  ]
-}
+const courseJSON =
+  '{"title": "Web Development", "duration": "6 Months", "fee": 21000, "topics": ["HTML", "CSS", "JavaScript"]}';
+
+const courseObj = JSON.parse(courseJSON);
+
+console.log("Course Title:", courseObj.courseTitle);
+console.log("Fee:", courseObj.fee);
+console.log("Topics:", courseObj.topics);
+
+courseObj.fee = 22000;
+courseObj.topics.push("React.js");
+
+const updatedCourseJSON = JSON.stringify(courseObj);
+
+console.log(updatedCourseJSON);
+console.log(JSON.stringify(courseObj, null, 2));
+
+const originalCourseJSON = courseJSON;
+console.log(originalCourseJSON);
+console.log(courseObj.topics);
+
+const invalidJSON = '{"courseTitle": "Data Structures", "fee": 12000,}';
+
+
