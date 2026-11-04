@@ -43,3 +43,8 @@ body {
   
   font-family: 'HMAmpersand', Arial, sans-serif; 
 }
+
+p::first-letter {
+  font-size: 30px;
+  color: red;
+}
