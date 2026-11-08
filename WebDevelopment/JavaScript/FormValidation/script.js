@@ -88,15 +88,25 @@ form.addEventListener("submit", () => {
       (name[i] >= "A" && name[i] <= "Z")
     ) {
       valid = true;
-    }
-    else{
+    } else {
       valid = false;
       break;
     }
-    
 
-    const status = (valid) ? "Valid" : "InValid";
+    const status = valid ? "Valid" : "InValid";
     console.log(status);
-    
+  }
+});
+
+const ageInput = document.getElementById("age");
+const checkButton = document.getElementById("checkAge");
+
+checkButton.addEventListener("click", function () {
+  const age = Number(ageInput.value);
+
+  if (age >= 16 && age <= 60) {
+    console.log("Age is valid.");
+  } else {
+    console.log("Age is outside the allowed range.");
   }
 });
