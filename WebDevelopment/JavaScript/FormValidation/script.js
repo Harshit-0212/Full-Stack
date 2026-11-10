@@ -110,3 +110,13 @@ checkButton.addEventListener("click", function () {
     console.log("Age is outside the allowed range.");
   }
 });
+
+ function checkEmail() {
+    const email = document.getElementById("email");
+
+    if (email.checkValidity()) {
+      console.log("Email field is valid.");
+    } else {
+      console.log("Email field is invalid.");
+    }
+  }
