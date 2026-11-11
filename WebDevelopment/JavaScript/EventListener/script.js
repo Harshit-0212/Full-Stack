@@ -31,3 +31,13 @@ parent.addEventListener("click", function () {
 child.addEventListener("click", function () {
   console.log("Child clicked");
 });
+
+element.addEventListener("click", callback, true);
+
+const items = document.querySelectorAll(".student");
+
+items.forEach(function (item) {
+  item.addEventListener("click", function () {
+    console.log("Student clicked");
+  });
+});
