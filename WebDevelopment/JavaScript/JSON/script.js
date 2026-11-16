@@ -110,3 +110,13 @@ console.log(student);
 delete student.name;
 
 console.log(student);
+
+const student = {
+  name: "Aarav",
+  age: 20,
+  course: "JavaScript"
+};
+
+console.log(student.name);
+console.log(student.age);
+console.log(student.course);
