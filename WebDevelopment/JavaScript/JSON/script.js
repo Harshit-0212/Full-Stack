@@ -120,3 +120,10 @@ const student = {
 console.log(student.name);
 console.log(student.age);
 console.log(student.course);
+
+
+const resultPromise = new Promise((resolve, reject) => {
+    resolve("Student result is ready");
+});
+
+console.log(resultPromise);
