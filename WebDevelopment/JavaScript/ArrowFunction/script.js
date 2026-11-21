@@ -83,4 +83,10 @@ function outerFunction() {
 
 outerFunction();
 
+const greet = () => {
+    console.log("Hello, Students!");
+};
+
+greet();
+
 
