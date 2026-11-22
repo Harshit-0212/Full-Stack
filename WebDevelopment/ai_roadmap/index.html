@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Engineer Roadmap for 3rd Year CSE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>From 3rd year to AI Engineer in 18 months</h1>
+  <p>Python, LLM apps, deployment, and placement prep in one sequence. Tick items as you finish them. Your progress is saved in this browser.</p>
+  <div class="progress" aria-label="Overall progress">
+    <div class="bar"><span id="fill"></span></div>
+    <b id="pct">0%</b>
+  </div>
+</header>
+
+<main>
+
+<section class="phase">
+  <div class="when">Months 1–3</div>
+  <div class="body">
+    <h2>Python and ML basics</h2>
+    <ul class="tasks">
+      <li><label><input type="checkbox"> Core Python, OOP, virtual environments, Git and GitHub</label></li>
+      <li><label><input type="checkbox"> NumPy, Pandas, Matplotlib on a real dataset</label></li>
+      <li><label><input type="checkbox"> Vectors, matrices, probability, gradients (only what you use)</label></li>
+      <li><label><input type="checkbox"> Scikit-learn: regression, classification, metrics</label></li>
+      <li><label><input type="checkbox"> Neural networks, PyTorch, transformers, embeddings</label></li>
+    </ul>
+    <p class="project"><mark>Project 1</mark> Fine-tune or run a small model on a custom dataset</p>
+  </div>
+</section>
+
+<section class="phase">
+  <div class="when">Months 4–7</div>
+  <div class="body">
+    <h2>LLM application engineering</h2>
+    <p class="note">The skill employers hire for right now.</p>
+    <ul class="tasks">
+      <li><label><input type="checkbox"> OpenAI, Gemini and Claude APIs, structured outputs, tool calling</label></li>
+      <li><label><input type="checkbox"> Embeddings, chunking, vector databases (Chroma, pgvector)</label></li>
+      <li><label><input type="checkbox"> Hybrid search and reranking</label></li>
+      <li><label><input type="checkbox"> Agents with LangGraph, plus one built from scratch</label></li>
+      <li><label><input type="checkbox"> Evaluation, guardrails, prompt injection basics, observability</label></li>
+    </ul>
+    <p class="project"><mark>Project 2</mark> AI assistant with tool use</p>
+    <p class="project"><mark>Project 3</mark> Chat with your documents, with a real UI</p>
+    <p class="project"><mark>Project 4</mark> Multi-step workflow agent</p>
+    <p class="apply">Start applying for internships after this phase.</p>
+  </div>
+</section>
+
+<section class="phase">
+  <div class="when">Months 8–11</div>
+  <div class="body">
+    <h2>Backend and deployment</h2>
+    <ul class="tasks">
+      <li><label><input type="checkbox"> FastAPI, async, PostgreSQL, Redis, authentication</label></li>
+      <li><label><input type="checkbox"> Linux basics, Docker, Docker Compose</label></li>
+      <li><label><input type="checkbox"> GitHub Actions CI/CD pipeline</label></li>
+      <li><label><input type="checkbox"> AWS or GCP: compute, storage, IAM, serverless</label></li>
+      <li><label><input type="checkbox"> Kubernetes basics, model serving (vLLM, Ollama), MLflow</label></li>
+    </ul>
+    <p class="project"><mark>Project 5</mark> RAG app containerized, with a pipeline, live on the cloud</p>
+  </div>
+</section>
+
+<section class="phase">
+  <div class="when">Months 12–18</div>
+  <div class="body">
+    <h2>Architect direction and placements</h2>
+    <ul class="tasks">
+      <li><label><input type="checkbox"> AI system design: queues, caching, load balancing</label></li>
+      <li><label><input type="checkbox"> API vs self-hosted vs fine-tuned models, and cost tradeoffs</label></li>
+      <li><label><input type="checkbox"> Security and privacy: PII, access control</label></li>
+      <li><label><input type="checkbox"> Go deep on one: LoRA/QLoRA, advanced RAG, inference optimization</label></li>
+      <li><label><input type="checkbox"> OS, DBMS, networks, OOP revision</label></li>
+      <li><label><input type="checkbox"> One-page resume with live project links</label></li>
+    </ul>
+    <p class="project"><mark>Project 6</mark> Production-grade AI platform with RAG, agents, CI/CD, monitoring, evals and an architecture diagram</p>
+  </div>
+</section>
+
+<section class="split">
+  <div>
+    <h2>DSA, every day</h2>
+    <p>One hour daily alongside everything else. It decides whether you get interviews.</p>
+    <table>
+      <tr><th>Months</th><th>Topics</th></tr>
+      <tr><td>1–3</td><td>Arrays, strings, hashing, two pointers</td></tr>
+      <tr><td>4–7</td><td>Linked lists, stacks, queues, recursion, binary search, trees</td></tr>
+      <tr><td>8–11</td><td>Heaps, graphs, DP basics</td></tr>
+      <tr><td>12+</td><td>Mixed Medium problems, mock interviews</td></tr>
+    </table>
+  </div>
+  <div>
+    <h2>Where to learn</h2>
+    <table>
+      <tr><th>Topic</th><th>Source</th></tr>
+      <tr><td>Python</td><td>CS50P, Kaggle Learn</td></tr>
+      <tr><td>Math</td><td>3Blue1Brown, StatQuest</td></tr>
+      <tr><td>ML and deep learning</td><td>Andrew Ng’s ML Specialization, Karpathy’s Zero to Hero, fast.ai</td></tr>
+      <tr><td>LLM apps</td><td>DeepLearning.AI short courses, official API docs, Hugging Face</td></tr>
+      <tr><td>Backend</td><td>FastAPI docs</td></tr>
+      <tr><td>DevOps and cloud</td><td>TechWorld with Nana, Kunal Kushwaha, AWS Skill Builder</td></tr>
+      <tr><td>DSA</td><td>Striver’s A2Z Sheet, NeetCode, LeetCode</td></tr>
+      <tr><td>Checklist</td><td>roadmap.sh/ai-engineer</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="rules">
+  <h2>Rules to follow</h2>
+  <ol>
+    <li>Finish each phase with a project before moving on.</li>
+    <li>Take one course per topic, then build instead of watching more.</li>
+    <li>Push to GitHub every week.</li>
+    <li>Use AI tools to learn faster, but understand every line you submit.</li>
+  </ol>
+  <p class="note">AI Architect is a senior role you grow into after a few years. This plan makes you a strong AI Engineer first.</p>
+</section>
+
+</main>
+
+<script>
+(function () {
+  var boxes = document.querySelectorAll('.tasks input');
+  var key = 'ai-roadmap-progress';
+  var saved = [];
+  try { saved = JSON.parse(localStorage.getItem(key)) || []; } catch (e) {}
+  function update() {
+    var done = 0, state = [];
+    boxes.forEach(function (b) { state.push(b.checked); if (b.checked) done++; });
+    var p = Math.round(done / boxes.length * 100);
+    document.getElementById('fill').style.width = p + '%';
+    document.getElementById('pct').textContent = p + '%';
+    try { localStorage.setItem(key, JSON.stringify(state)); } catch (e) {}
+  }
+  boxes.forEach(function (b, i) { b.checked = !!saved[i]; b.addEventListener('change', update); });
+  update();
+})();
+</script>
+</body>
+</html>
