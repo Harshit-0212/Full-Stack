@@ -37,3 +37,11 @@ try {
 } finally {
     console.log("Process finished");
 }
+
+const messagePromise = new Promise((resolve, reject) => {
+    resolve("Welcome to RICR");
+});
+
+messagePromise.then((message) => {
+    console.log(message);
+});
