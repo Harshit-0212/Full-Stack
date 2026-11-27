@@ -31,10 +31,20 @@
     column-gap: 70px;
 }
 
+
 .gd{
     width: 100px;
     height: 150px;
-    color:#000;
+    color:#1D2024;
+    font-size: xx-large;
+    font-weight: 10000;
+}
+
+
+.gd{
+    width: 100px;
+    height: 150px;
+    color:#1D2024;
     font-size: xx-large;
     font-weight: 900;
 }
