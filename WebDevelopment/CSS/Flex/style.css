@@ -31,6 +31,17 @@
     column-gap: 70px;
 }
 
+.grid-outer{
+    padding: 40px;
+    border: 1px solid black;
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto auto auto auto ;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 70px;
+}
+
 
 .gd{
     width: 100px;
